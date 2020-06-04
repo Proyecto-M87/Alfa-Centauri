@@ -1,0 +1,53 @@
+.button_1 {
+    background-color: #1ABC9C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+.button_1:hover {
+    background-color: #16A085; /* Green */
+    color: white;
+}
+
+.btn-bordered {
+    color: #b0bec5;
+    background: transparent;
+    border: 2px solid #455A64;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    transition-duration: 1s;
+}
+
+.btn-bordered:hover{
+    border: 2px dotted #455A64;
+    color: white;
+    background: transparent;
+}
+
+h1 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 20px;
+}
+
+.footer
+{
+    background: linear-gradient(#B0BEC5, #78909C);
+}
+
+
+/*<a href="https://www.freepik.es/fotos-vectores-gratis/negocios">Vector de Negocios creado por freepik - www.freepik.es</a>*/
+/*<a href="https://www.freepik.es/fotos-vectores-gratis/fondo">Vector de Fondo creado por freepik - www.freepik.es</a>*/
+/*<a href="https://www.freepik.es/fotos-vectores-gratis/fondo">Vector de Fondo creado por freepik - www.freepik.es</a>*/
+/*<a href="https://www.freepik.es/fotos-vectores-gratis/fondo">Vector de Fondo creado por starline - www.freepik.es</a>*/
+/*#003245*/
