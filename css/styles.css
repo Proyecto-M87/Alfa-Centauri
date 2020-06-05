@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'mercedes-serialbold';
+    src: url('../src/GothamRounded.ttf') format('truetype');
+}
+
 .button_1 {
     background-color: #1ABC9C;
     border: none;
@@ -9,6 +14,7 @@
     font-size: 16px;
     border-radius: 4px;
     transition-duration: 0.4s;
+    margin: 10px;
 }
 
 .button_1:hover {
@@ -17,7 +23,7 @@
 }
 
 .btn-bordered {
-    color: #b0bec5;
+    color: #ffffff;
     background: transparent;
     border: 2px solid #455A64;
     padding: 15px 32px;
@@ -29,20 +35,38 @@
     transition-duration: 1s;
 }
 
-.btn-bordered:hover{
+.btn-bordered:hover {
     border: 2px dotted #455A64;
     color: white;
     background: transparent;
 }
 
 h1 {
-    font-family: "Segoe UI",Arial,sans-serif;
+    font-family: "Segoe UI", sans-serif;
     font-size: 20px;
 }
 
-.footer
-{
-    background: linear-gradient(#B0BEC5, #78909C);
+.footer-header {
+    background-color: #3a464b;
+    font-family: mercedes-serialbold, sans-serif;
+    font-weight: 300;
+    color: white !important;
+    padding: 20px;
+    font-size: 1.1575rem;
+
+}
+
+.footerFacebook, .footerGooglePlus, .footerTwitter {
+    float: left;
+    overflow: hidden;
+    /*background: url(../img/sprite.png) no-repeat;*/
+    width: 80px;
+    height: 80px;
+}
+
+.footer-wrapper {
+    background-color: #eaedf1;
+
 }
 
 
@@ -51,3 +75,6 @@ h1 {
 /*<a href="https://www.freepik.es/fotos-vectores-gratis/fondo">Vector de Fondo creado por freepik - www.freepik.es</a>*/
 /*<a href="https://www.freepik.es/fotos-vectores-gratis/fondo">Vector de Fondo creado por starline - www.freepik.es</a>*/
 /*#003245*/
+
+
+/*Foto de Suzy Hazelwood en Pexels*/

@@ -8,8 +8,14 @@
     -o-background-size: cover;
     background-size: cover;
 }
+
 .carousel-caption {
-    bottom: 270px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    position: absolute;
+    transform: translateY(50%);
+    color: white;
+    bottom: 260px;
 }
 
 .carousel-caption h5 {
@@ -22,7 +28,8 @@
 .carousel-caption p {
     width: 75%;
     margin: auto;
+    padding: 10px;
     font-size: 18px;
     line-height: 1.9;
-    color: #BDBDBD;
+    color: #FFFFFF;
 }
