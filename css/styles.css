@@ -6,13 +6,14 @@
 .button_1 {
     background-color: #1ABC9C;
     border: none;
-    color: white;
+    color: white !important;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-radius: 4px;
+    font-family: mercedes-serialbold, sans-serif;
+    border-radius: 6px;
     transition-duration: 0.4s;
     margin: 10px;
 }
@@ -54,14 +55,6 @@ h1 {
     padding: 20px;
     font-size: 1.1575rem;
 
-}
-
-.footerFacebook, .footerGooglePlus, .footerTwitter {
-    float: left;
-    overflow: hidden;
-    /*background: url(../img/sprite.png) no-repeat;*/
-    width: 80px;
-    height: 80px;
 }
 
 .footer-wrapper {
