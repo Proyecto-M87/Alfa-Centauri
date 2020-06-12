@@ -1,5 +1,58 @@
 .footer{
-    background: linear-gradient(#414345, #232526);
-    color: white;
+    background-color: #eaedf1;
+    color: #3a464b;
     border-radius: 0;
+    font-family: mercedes-serialbold, sans-serif;
+}
+
+.footer a{
+    font-size: 1.35em;
+    font-weight: bold;
+    color: #b4bbc2;
+}
+
+
+/*Contenedor de pie de pagina "redes sociales"*/
+.footerSocial {
+    overflow: hidden;
+    background-color: #fff;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 300px;
+}
+
+.footerSocial span{
+    font-size: 1.35em;
+    font-weight: bold;
+    color: #b4bbc2;
+    text-align: justify !important;
+}
+
+.footerSocial .col{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.footerFacebook, .footerInstagram, .footerTwitter {
+    float: left;
+    overflow: hidden;
+    width: 55px;
+    height: 55px;
+    padding: 15px;
+    background-color: #29c0ac;
+    border-radius: 2px;
+}
+
+.footerFacebook{
+    background-color: #24aa98 !important;
+}
+
+
+.footerSocial .col:hover{
+    color: #92989e;
+}
+
+/*Contenedor de opciones otras*/
+.footerHome{
+    
 }
