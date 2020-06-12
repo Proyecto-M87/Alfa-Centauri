@@ -18,6 +18,10 @@
             color: white;
             padding: 10px;
         }
+        .logo{
+            width: 25%;
+            padding: 10px;
+        }
     </style>
 </head>
 <body>
@@ -25,7 +29,7 @@
     <div class="d-none d-sm-none d-md-block">
         <div class="container-fluid" style="background: linear-gradient(#2B5876, #292E49); max-height: 300px;">
             <div class="row">
-                <h1>Hello classroom</h1>
+                <img class="logo" src="../img/logo.png" alt="logo">
             </div>
             <div class="row">
                 <div class="col text-center " style="align-items: center">
@@ -142,8 +146,31 @@
 </div>
 
 <footer>
-    <div class="jumbotron text-center footer" style="margin-bottom:0">
-        <p>Footer</p>
+    <div class="jumbotron text-center footer" style="margin-bottom:0; ">
+        <div class="row">
+            <div class="col">
+                <div class="container-fluid footerSocial">
+                    <div class="row">
+                        <img class="footerInstagram" src="../img/social/instagram.png" alt="instagram">
+                        <span class="col">@alex_dubonr</span>
+                    </div>
+
+                    <div class="row">
+                        <img class="footerFacebook" src="../img/social/facebook.png" alt="facebook">
+                        <span class="col">Facebook</span>
+                    </div>
+
+                    <div class="row">
+                        <img class="footerTwitter" src="../img/social/twitter.png" alt="twitter">
+                        <span class="col">@RC4007</span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <a>Hello</a>
+            </div>
+        </div>
     </div>
 </footer>
 
@@ -159,9 +186,7 @@
     </script>
 
     <script type="text/javascript" src="../js/calendar.js"></script>
-    <script type="text/javascript">
-        let calendar = new Calendar('calendar-1');
-    </script>
+
 </section>
 </body>
 </html>
