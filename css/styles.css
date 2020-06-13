@@ -47,27 +47,106 @@ h1 {
     font-size: 20px;
 }
 
-.footer-header {
-    background-color: #3a464b;
+.head {
+    background-image: url("../img/bg.png");
+    background-size: cover;
+    background-position: center;
+    max-height: 300px;
+    padding: 30px;
+}
+
+header a {
+    background-color: #1ABC9C;
+    /*border: 1px solid #92989e;*/
+    color: #eeeeee !important;
     font-family: mercedes-serialbold, sans-serif;
-    font-weight: 300;
-    color: white !important;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+header .col{
+    margin: 5px;
+}
+
+.logo {
+    width: 30%;
     padding: 20px;
-    font-size: 1.1575rem;
-
 }
 
-.footer-wrapper {
-    background-color: #eaedf1;
-
+.warning {
+    border: 1px solid #92989e;
+    width: 100%;
+    height: 100%;
+    column-count: 2;
+    margin: 5px;
 }
 
+.warning img{
+    width: 75%;
+    height: 75%;
+    padding: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
-/*<a href="https://www.freepik.es/fotos-vectores-gratis/negocios">Vector de Negocios creado por freepik - www.freepik.es</a>*/
-/*<a href="https://www.freepik.es/fotos-vectores-gratis/fondo">Vector de Fondo creado por freepik - www.freepik.es</a>*/
-/*<a href="https://www.freepik.es/fotos-vectores-gratis/fondo">Vector de Fondo creado por freepik - www.freepik.es</a>*/
-/*<a href="https://www.freepik.es/fotos-vectores-gratis/fondo">Vector de Fondo creado por starline - www.freepik.es</a>*/
-/*#003245*/
+.text-w {
+    margin-top: 2px;
+}
 
+.box {
+    width: 150px;
+    height: 75px;
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    margin: 40px;
+    float: left;
+}
 
-/*Foto de Suzy Hazelwood en Pexels*/
+.box.arrow-top {
+    margin-top: 40px;
+}
+
+.box.arrow-top:after {
+    content: " ";
+    position: absolute;
+    right: 30px;
+    top: -15px;
+    border-top: none;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid black;
+}
+
+.box.arrow-right:after {
+    content: " ";
+    position: absolute;
+    right: -15px;
+    top: 15px;
+    border-top: 15px solid transparent;
+    border-right: none;
+    border-left: 15px solid black;
+    border-bottom: 15px solid transparent;
+}
+
+.box.arrow-bottom:after {
+    content: " ";
+    position: absolute;
+    right: 30px;
+    bottom: -15px;
+    border-top: 15px solid black;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: none;
+}
+
+.box.arrow-left:after {
+    content: " ";
+    position: absolute;
+    left: -15px;
+    top: 15px;
+    border-top: 15px solid transparent;
+    border-right: 15px solid black;
+    border-left: none;
+    border-bottom: 15px solid transparent;
+}
