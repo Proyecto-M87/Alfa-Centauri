@@ -121,3 +121,17 @@ header .col {
     background-color: #16A085; /* Green */
     color: white;
 }
+
+.nav-tabs a{
+    padding: 10px;
+    margin-bottom: 0;
+    background-color: #1ABC9C;
+    border: 1px solid #127461;
+    color: white;
+    font-family: mercedes-serialbold, sans-serif;
+    border-radius: 5px;
+}
+
+.tab .active{
+    background-color: #127461 !important;
+}
