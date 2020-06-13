@@ -12,75 +12,73 @@
     <link rel="stylesheet" href="css/footer.css">
 
     <style>
-        h1 {
-            font-size: 2rem;
-            font-weight: 800;
-            color: white;
-            padding: 10px;
-        }
-        .logo{
-            width: 25%;
-            padding: 10px;
-        }
+
     </style>
 </head>
 <body>
 <header>
     <div class="d-none d-sm-none d-md-block">
-        <div class="container-fluid" style="background: linear-gradient(#2B5876, #292E49); max-height: 300px;">
+        <div class="container-fluid head">
             <div class="row">
                 <img class="logo" src="../img/logo.png" alt="logo">
             </div>
-            <div class="row">
-                <div class="col text-center " style="align-items: center">
-                    <div class="row justify-content-center">
-                        <img
-                                alt="Image html"
-                                width="35%"
-                                height="35%"
-                                src="../img/toolbar/actividades.svg"/>
+            <!--            Herramientas-->
+            <div class="container-fluid">
+                <div class="row item">
+                    <div class="col text-center " style="align-items: center">
+                        <div class="row justify-content-center">
+                            <img
+                                    alt="Image html"
+                                    width="35%"
+                                    height="35%"
+                                    src="../img/toolbar/actividades.svg"/>
+                        </div>
+                        <a class="row justify-content-center">Actividades</a>
                     </div>
-                    <a class="row justify-content-center" style="margin-top: 10px; color: white;">Actividades</a>
-                </div>
-                <div class="col text-center " style="align-items: center">
-                    <div class="row justify-content-center">
-                        <img
-                                alt="Image html"
-                                width="35%"
-                                height="35%"
-                                src="../img/toolbar/contenidos.svg"/>
+                    <div class="col text-center " style="align-items: center">
+                        <div class="row justify-content-center">
+                            <img
+                                    alt="Image html"
+                                    width="35%"
+                                    height="35%"
+                                    src="../img/toolbar/contenidos.svg"/>
+                        </div>
+                        <a class="row justify-content-center">Contenidos</a>
                     </div>
-                    <a class="row justify-content-center" style="margin-top: 10px; color: white;">Contenidos</a>
-                </div>
-                <div class="col text-center " style="align-items: center">
-                    <div class="row justify-content-center">
-                        <img
-                                alt="Image html"
-                                width="35%"
-                                height="35%"
-                                src="../img/toolbar/estadisticas.svg"/>
+                    <div class="col text-center " style="align-items: center">
+                        <div class="row justify-content-center">
+                            <img
+                                    alt="Image html"
+                                    width="35%"
+                                    height="35%"
+                                    src="../img/toolbar/estadisticas.svg"/>
+                        </div>
+                        <a class="row justify-content-center">Estadísticas</a>
                     </div>
-                    <a class="row justify-content-center" style="margin-top: 10px; color: white;">Estadísticas</a>
-                </div>
-                <div class="col text-center " style="align-items: center">
-                    <div class="row justify-content-center">
-                        <img
-                                alt="Image html"
-                                width="35%"
-                                height="35%"
-                                src="../img/toolbar/organizacion.svg"/>
+                    <div class="col text-center " style="align-items: center">
+                        <div class="row justify-content-center">
+                            <img
+                                    alt="Image html"
+                                    width="35%"
+                                    height="35%"
+                                    src="../img/toolbar/organizacion.svg"/>
+                        </div>
+                        <a class="row justify-content-center">Organizacion</a>
                     </div>
-                    <a class="row justify-content-center" style="margin-top: 10px; color: white;">Organizacion</a>
-                </div>
-                <div class="col text-center " style="align-items: center">
-                    <div class="row justify-content-center">
-                        <img
-                                alt="Image html"
-                                width="35%"
-                                height="35%"
-                                src="../img/toolbar/permisos.svg"/>
+                    <div class="col text-center " style="align-items: center">
+                        <div class="row justify-content-center">
+                            <img
+                                    alt="Image html"
+                                    width="35%"
+                                    height="35%"
+                                    src="../img/toolbar/permisos.svg"/>
+                        </div>
+                        <a class="row justify-content-center">Permisos</a>
                     </div>
-                    <a class="row justify-content-center" style="margin-top: 10px; color: white;">Permisos</a>
+                    <!--                    Perfil-->
+                    <div class="col">
+                        <div class=""></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -104,41 +102,37 @@
 <div class="loader">
     <div class="container c1">
         <div class="loader1"></div>
-        <div class="loader1"></div>
     </div>
 </div>
+
 <div class="container-fluid">
     <div class="row" style="padding-top: 10px; padding-bottom: 10px;">
         <div class="col">
             <div class="row justify-content-center">
                 <a class="button_1">Añadir recordatorio</a>
             </div>
+            <span class="row" id="alert-1"></span>
+            <span class="row" id="alert-2"></span>
         </div>
 
         <div class="col-sm-7">
-
+            <div class="container-fluid" style="margin: 5px; padding: 20px; border: solid">
+                <span>Categorias</span>
+            </div>
         </div>
 
         <div class="col">
-            <h2>TEST</h2>
-            <div class="shadow-2xl pt-8">
-                <div class="border p-8 p-md-2 bg-light"><p class="text-5xl" id="a"></p>
-                    <p class="text-lg " id="d"></p></div>
+            <div class="d-none d-sm-none d-md-block">
+                <div class="shadow-2xl pt-8">
+                    <div class="border p-8 p-md-2 bg-light"><p class="text-5xl" id="a"></p>
+                        <p class="text-lg " id="d"></p></div>
+                </div>
             </div>
 
-            <script>
-                function time() {
-                    let p = document.getElementById("a");
-                    p.innerHTML = moment().format('LTS');
+            <div class="calendar" id="calendar-1"></div>
 
-                    document.getElementById("d").innerHTML = `${moment().format('dddd')}<br/>`;
-                    document.getElementById("d").innerHTML += moment().format('LL');
-                }
-
-                setInterval(time, 1000);
-            </script>
-            <div class="calendar" id="calendar-1">
-
+            <div class="box arrow-right">
+                Hello World!
             </div>
 
         </div>
@@ -186,6 +180,34 @@
     </script>
 
     <script type="text/javascript" src="../js/calendar.js"></script>
+
+    <!--    Control del reloj-->
+    <script type="text/javascript">
+        function time() {
+            let p = document.getElementById("a");
+            p.innerHTML = moment().format('LTS');
+
+            document.getElementById("d").innerHTML = `${moment().format('dddd')}<br>`;
+            document.getElementById("d").innerHTML += moment().format('LL');
+        }
+
+        setInterval(time, 1000);
+    </script>
+
+
+    <!--    Control del calendario-->
+    <script type="text/javascript">
+        let calendar = new Calendar('calendar-1');
+        calendar.getElement().addEventListener('change', e => {
+            console.log(calendar.value().format('LLL'));
+        });
+    </script>
+
+    <script type="text/javascript" src="../js/warning.js"></script>
+    <script type="text/javascript">
+        Warning.make('alert-1', "Implementar notas de video");
+        Warning.make('alert-2', "Terminar el maquetado");
+    </script>
 
 </section>
 </body>
