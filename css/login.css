@@ -1,0 +1,187 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+* {
+    box-sizing: border-box;
+    outline: none!important;
+    text-decoration: none!important;
+}
+.login-form {
+    height: 100vh;
+    background-image: url(../img/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.login-form .box {
+    position: relative;
+    min-width: 400px;
+    min-height: 415px;
+    /*background-color:  #8c;*/
+    box-shadow: -1px 0 10px 1px rgba(82, 249, 255, 0.75), -1px -1px 0 1px rgba(70, 119, 255, 0.25), -1px 1px 0 1px rgba(70, 82, 255, 0.25), 0 -1px 0 1px rgba(57, 159, 255, 0.5), 0 1px 0 1px rgba(57, 159, 255, 0.5), 1px -1px 0 1px rgba(44, 206, 255, 0.25), 1px 1px 0 1px rgba(44, 223, 255, 0.25), 1px 0 0 1px rgba(31, 65, 255, 0.75);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.login-form form {
+    position: relative;
+}
+.login-form form .img {
+    margin-bottom: 50px;
+}
+.login-form form .img img {
+    position: absolute;
+    width: 100px;
+    top: 10px;
+    left: 150px;
+    z-index: 1;
+}
+.login-form .box .heading h2 {
+    color: #050505;
+    font-size: 22px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,1);
+    padding: 50px 0 20px 0;
+    margin: 0;
+}
+.login-form .box .heading h2::before {
+    border-radius: 50%;
+    box-shadow: 0 0 6px 4px #fff;
+    content: "";
+    display: block;
+    height: 5px;
+    left: 0;
+    position: absolute;
+    top: -5px;
+    width: 8px;
+}
+.login-form .box .form-fields {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 40px;
+    border-top: 1px solid #19191a;
+}
+.login-form .box .form-fields .input-box {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.login-form .box .form-fields .input-box .form-control {
+    height: 40px;
+    width: 100%;
+    padding: 0 0 0 45px;
+    color: #1969e0;
+    border: 1px solid #222222;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.1);
+    border-radius: 0.3em;
+    background: linear-gradient(#1f2124, #27292c);
+}
+.login-form .box .form-fields .input-box span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #484848;
+}
+.login-form .box .form-fields .input-box span img {
+    width: 22px;
+}
+.login-form .box .form-fields .button-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.login-form .box .form-fields .button-box button {
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px 35px;
+    background-color: #0089fe;
+    transition: box-shadow .5s ease;
+    -webkit-transition: box-shadow .5s ease;
+    -moz-transition: box-shadow .5s ease;
+    -ms-transition: box-shadow .5s ease;
+    -o-transition: box-shadow .5s ease;
+    border: none;
+    cursor: pointer;
+    margin: 15px 25px 0 0;
+}
+
+.login-form .box .form-fields .button-box a {
+    font-size: 16px;
+    color: #0089fe;
+    margin-top: 15px;
+}
+.login-form .box .social-links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+}
+.login-form .box .social-links p {
+    text-align: center;
+    color: #cccccc;
+    font-size: 14px;
+    margin: 20px 0 20px;
+}
+.login-form .box .social-links .links-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.login-form .box .social-links .links-box img {
+    width: 40px;
+    transition: transform .5s ease;
+    -webkit-transition: transform .5s ease;
+    -moz-transition: transform .5s ease;
+    -ms-transition: transform .5s ease;
+    -o-transition: transform .5s ease;
+}
+
+
+/** Responsive **/
+@media (max-width: 500px) {
+ 
+    .login-form .box {
+        min-width: 100%;
+    }
+    .login-form form {
+        position: relative;
+    }
+
+    .login-form .box .heading h2::after {
+        width: 460px;
+    }
+    .login-form form .img {
+        position: relative;
+    }
+    .login-form form .img img {
+        left: 130px;
+    }
+
+}
+@media (max-width: 360px) {
+    .login-form .box {
+        min-height: 380px;
+    }
+    .login-form form .img img {
+        left: 115px;
+    }
+    .login-form .box .form-fields {
+        padding: 10px 20px;
+    }
+    .login-form .box .heading h2::after {
+        left: 172px;
+    }
+}
