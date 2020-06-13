@@ -1,3 +1,17 @@
+.footer-header {
+    background-color: #3a464b;
+    font-family: mercedes-serialbold, sans-serif;
+    font-weight: 300;
+    color: white !important;
+    padding: 20px;
+    font-size: 1.1575rem;
+
+}
+
+.footer-wrapper {
+    background-color: #eaedf1;
+}
+
 .footer{
     background-color: #eaedf1;
     color: #3a464b;
@@ -8,7 +22,7 @@
 .footer a{
     font-size: 1.35em;
     font-weight: bold;
-    color: #b4bbc2;
+    color: #92989E;
 }
 
 
@@ -25,7 +39,7 @@
 .footerSocial span{
     font-size: 1.35em;
     font-weight: bold;
-    color: #b4bbc2;
+    color: #92989E;
     text-align: justify !important;
 }
 
