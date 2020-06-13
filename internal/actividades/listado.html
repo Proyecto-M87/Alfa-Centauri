@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Listado de actividades</title><link rel="stylesheet" href="../../css/navigation-bar.css">
+    <title>Listado de actividades</title>
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/navigation-bar.css">
     <link rel="stylesheet" href="../../css/styles.css">
     <link rel="stylesheet" href="../../css/loader.css">
     <link rel="stylesheet" href="../../css/calendar.css">
@@ -119,70 +121,46 @@
     <div class="row">
         <div class="col">
             <ul class="nav nav-tabs">
-                <li class="active"><a class="tab" data-toggle="tab" href="#home">Examen 1</a></li>
-                <li><a class="tab" data-toggle="tab" href="#menu1">Examen 2</a></li>
-                <li><a class="tab" data-toggle="tab" href="#menu2">Examen 3</a></li>
+                <li class="active"><a class="tab" data-toggle="tab" href="#examen_1">Examen 1</a></li>
+                <li><a class="tab" data-toggle="tab" href="#examen_2">Examen 2</a></li>
+                <li><a class="tab" data-toggle="tab" href="#parcial">Parcial</a></li>
             </ul>
 
-            <div class="tab-content">
-                <div id="home" class="tab-pane fade active">
+            <div class="tab-content" style="padding: 10px">
+                <div id="examen_1" class="tab-pane fade active">
                     <div class="row">
-                        <div class="col">
-                            <img class="img" src="img/tabs/1.jpg" alt="...">
-                        </div>
-                        <div class="col-5">
-                            <div class="row">
-                                <a><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong><br></a>
-                            </div>
-                            <div class="row">
-                                <a>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore.
-                                    Deserunt
-                                    excepturi quas vero.</a>
-                            </div>
-                            <div class="row">
-                                <a href="#">Read More.</a>
-                            </div>
-                        </div>
+                        <a class="col">
+                            Se evaluara el tema de CI, segun lo visto del N555e.<br>
+                            Tendra un total de 120 minutos para completar el examen.<br>
+                            <strong>Porcentaje: 20%.</strong>
+                        </a>
+                        <a class="col button_1">
+                            Intentar
+                        </a>
                     </div>
                 </div>
-                <div id="menu1" class="tab-pane fade">
+                <div id="examen_2" class="tab-pane fade">
                     <div class="row">
-                        <div class="col">
-                            <img class="img" src="img/tabs/2.png" alt="...">
-                        </div>
-                        <div class="col-5">
-                            <div class="row">
-                                <a><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong><br></a>
-                            </div>
-                            <div class="row">
-                                <a>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore.
-                                    Deserunt
-                                    excepturi quas vero.</a>
-                            </div>
-                            <div class="row">
-                                <a href="#">Read More.</a>
-                            </div>
-                        </div>
+                        <a class="col">
+                            Se evaluara el tema de Electronica de pontencia.<br>
+                            Tendra un total de 120 minutos para completar el examen.<br>
+                            <strong>Porcentaje: 30%.</strong>
+                        </a>
+                        <a class="col button_1">
+                            Intentar
+                        </a>
                     </div>
                 </div>
-                <div id="menu2" class="tab-pane fade">
+                <div id="parcial" class="tab-pane fade">
                     <div class="row">
-                        <div class="col">
-                            <img class="img" src="img/tabs/3.jpg" alt="...">
-                        </div>
-                        <div class="col-5">
-                            <div class="row">
-                                <a><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong><br></a>
-                            </div>
-                            <div class="row">
-                                <a>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore.
-                                    Deserunt
-                                    excepturi quas vero.</a>
-                            </div>
-                            <div class="row">
-                                <a href="#">Read More.</a>
-                            </div>
-                        </div>
+                        <a class="col">
+                            Se evaluara el tema de Amplificadores operacionales.<br>
+                            Tendra un total de 120 minutos para completar el examen.<br>
+                            <strong>Porcentaje: 50%.</strong>
+                        </a>
+                        <a class="col button_1">
+                            Intentar
+                        </a>
                     </div>
                 </div>
             </div>
