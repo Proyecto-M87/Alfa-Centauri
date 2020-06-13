@@ -30,7 +30,7 @@
 }
 
 .nav-link.active,.nav-link:focus{
-    color: #ff718f;
+    color: #455A64;
 }
 
 .navbar-toggler {
@@ -79,4 +79,6 @@
 
 .nav-item a:hover {
     background: #393939;
+    border-radius: 5px;
 }
+

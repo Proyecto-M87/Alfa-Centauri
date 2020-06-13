@@ -71,6 +71,8 @@ header .col {
 .logo {
     width: 30%;
     padding: 20px;
+    background: url("../img/logo.png") no-repeat;
+    background-size: contain;
 }
 
 .message {
