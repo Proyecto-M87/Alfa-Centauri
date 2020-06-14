@@ -10,6 +10,37 @@
     <link rel="stylesheet" href="../../css/calendar.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/containers.css">
+
+    <style>
+        ul.tree, ul.tree ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul.tree ul {
+            padding-left: 1em;
+            background: url(../img/vline.png) repeat-y;
+        }
+
+        ul.tree li {
+            margin: 0;
+            padding: 0 1.2em;
+            line-height: 20px;
+            background: url(../img/node.png) no-repeat;
+            color: #369;
+            font-weight: bold;
+        }
+
+        /* The #fff color background is to hide the previous background image*/
+        ul.tree li.last {
+            background: #fff url(../img/lastnode.png) no-repeat;
+        }
+
+        ul.tree ul:last-child {
+            background: none;
+        }
+    </style>
 </head>
 <body>
 
@@ -116,6 +147,28 @@
         </div>
     </nav>
 </header>
+
+<div class="container-fluid" style="padding: 20px 0 20px 0 ">
+    <div class="row">
+        <div class="col">
+            <iframe width="100%" height="480" src="https://www.youtube.com/embed/jGehuhFhtnE"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>
+        <div class="col">
+            <a>Git</a>
+            <ul class="tree">
+                <ul>
+                    <li>¿Que es git?</li>
+                    <li class="last">¿Como funciona?</li>
+                </ul>
+
+                <li class="last">Git y GitHub</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
 <footer>
     <div class="jumbotron text-center footer" style="margin-bottom:0;">
         <div class="row">
